@@ -1,0 +1,26 @@
+win+R打开cmd窗口，依次输入以下：
+
+cd /d "C:\Program Files (Yuan)\My Office Add-in"
+
+npm start
+
+(Y/N)，输入“N”
+
+路径不能有中文，"!"也不行，第一次安装放在“!Portable version”文件夹一直报错，更改为“Program Files (Yuan)”通过。
+
+若提示安全签名问题，可过几天重试，等待提示删除过期证书，重新下载新证书即可。
+
+"C:\Program Files (Yuan)\My Office Add-in\src\taskpane\taskpane.js"，记事本打开可修改显示文本。
+
+
+Visual Studio：
+打开C:\Program Files (Yuan)\office renew\WordWebAddIn1\WordWebAddIn1,自动打开Visual Studio2019，等待加载完毕，点击启动跳转word，右侧三个按钮随便点击即可。
+
+
+
+
+cd /d "D:\Download\Gitbook"
+
+
+fnm install 12
+fnm use --install-if-missing 12
