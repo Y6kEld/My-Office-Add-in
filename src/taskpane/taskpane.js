@@ -20,7 +20,7 @@ export async function run() {
      */
 
     // insert a paragraph at the end of the document.
-    const paragraph = context.document.body.insertParagraph("2025.04.09 打开根目录 - src - taskpane - taskpane.js,可修改显示文本", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("2025.04.09 taskpane.js,可修改显示文本", Word.InsertLocation.end);
 
     // change the paragraph color to green.
     paragraph.font.color = "blue";
